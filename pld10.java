@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class pld10{
     public static void main(String[] args) {
-        // Initialize counters
+        //  ambot basta initialize counter
         int totalGrades = 0;
         int countA = 0;
         int countB = 0;
@@ -15,7 +15,7 @@ public class pld10{
         while (true) {
             String input = JOptionPane.showInputDialog("Enter a score (Enter a negative number to end):");
             
-            // Convert input to integer
+            // sanaol convert input to integer
             score = Integer.parseInt(input);
             
             // Check if sentinel value (negative number) is entered
@@ -49,6 +49,8 @@ public class pld10{
                        "Number of F's = " + countF;
         
         // Display the results
+        // YOKO NA
         JOptionPane.showMessageDialog(null, result);
     }
+
 }
